@@ -21,7 +21,7 @@ export default function RegisterV1() {
             <GoogleButton className="w-full" variant="outline" />
             <p className="text-center text-muted-foreground text-xs">
               Already have an account?{" "}
-              <Link prefetch={false} href="login" className="text-primary">
+              <Link prefetch={false} href="/auth/v1" className="text-primary">
                 Login
               </Link>
             </p>
